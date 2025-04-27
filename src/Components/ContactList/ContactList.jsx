@@ -1,4 +1,4 @@
-import styles from './ContactList.module.css';
+import styles from '../ContactList.module.css';
 import Contact from '../ContactList/Contact';
 
 export default function ContactList({ contacts, onDelete }) {

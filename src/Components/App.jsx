@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import ContactForm from '../Components/ContactForm/ContactForm.jsx';
 import ContactList from '../Components/ContactList/ContactList.jsx';
 import SearchBox from '../Components/SearchBox/SearchBox.jsx';
-import './App.css';
+import '../Components/App.css';
 
 function App() {
   const initialPhoneBook = [
