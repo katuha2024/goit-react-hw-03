@@ -17,6 +17,21 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.Wrap{
+  display:flex ;
+  justify-content: space-between;
+  gap: 10px ;
+}
+.componentsWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+.contactListWrap {
+  
+  width:50%; 
+}
+
 
 @keyframes logo-spin {
   from {

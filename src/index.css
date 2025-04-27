@@ -28,11 +28,16 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: plum ;
 }
 
 h1 {
+  text-decoration: underline;
   font-size: 3.2em;
   line-height: 1.1;
+}
+ul,li{
+  list-style: none;
 }
 
 button {
