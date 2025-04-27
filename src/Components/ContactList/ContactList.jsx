@@ -5,7 +5,7 @@ export default function ContactList({ contacts, onDelete }) {
   return (
     <div className={styles.container}>
       {contacts.length === 0
-        ? <p>Dear Mentor, no such contact found, try again! )))</p>
+        ? <p>Dear Mentor, no such contact found, try again! ))))</p>
         : (<ul className={styles.contactList}>
           {contacts.map(contact => {
             return (
