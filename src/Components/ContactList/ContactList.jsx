@@ -1,5 +1,5 @@
-import styles from '../ContactList/ContactList.module.css';
-import Contact from '../ContactList/Contact';
+import styles from './ContactList.module.css';
+import Contact from '../Contact/Contact'
 
 export default function ContactList({ contacts, onDelete }) {
   return (
