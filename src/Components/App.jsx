@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
-import ContactForm from '../components/ContactForm/ContactForm.jsx';
+import ContactForm from '../components/contactForm/ContactForm.jsx';
 import ContactList from '../components/contactList/ContactList.jsx';
 import SearchBox from './searchBox/SearchBox.jsx';
 import '../components/App.css';
