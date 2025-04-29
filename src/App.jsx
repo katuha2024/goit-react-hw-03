@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { nanoid } from 'nanoid';
-import ContactForm from '../components/contactForm/ContactForm.jsx';
-import ContactList from '../components/contactlist/ContactList.jsx';
-import SearchBox from '../components/searchBox/SearchBox.jsx';
+import ContactForm from './components/contactform/ContactForm.jsx';
+import ContactList from './components/contactlist/ContactList.jsx';
+import SearchBox from './components/searchBox/SearchBox.jsx';
 import './App.css';
+
 
 function App() {
   const initialPhoneBook = [
